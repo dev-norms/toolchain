@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "**/.*": true,
+    "**/yarn.lock": true
+  },
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  }
+}

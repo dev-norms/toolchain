@@ -1,0 +1,9 @@
+{
+  "name": "@norms/toolchain",
+  "description": "The Norms toolchain takes a collection of developer norms - expressed via a flavor of Markdown - and compiles them into package(s) containing configuration that can be used to enforce and apply them against your organization's projects.",
+  "version": "0.0.1",
+  "volta": {
+    "node": "18.12.1",
+    "yarn": "3.3.0"
+  }
+}
