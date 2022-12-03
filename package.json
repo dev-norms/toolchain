@@ -1,9 +1,20 @@
 {
-  "name": "@norms/toolchain",
-  "description": "The Norms toolchain takes a collection of developer norms - expressed via a flavor of Markdown - and compiles them into package(s) containing configuration that can be used to enforce and apply them against your organization's projects.",
-  "version": "0.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "rimraf '**/*.{d.ts,js,map,tsbuildinfo}'"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
+  },
   "volta": {
     "node": "18.12.1",
     "yarn": "3.3.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.3"
   }
 }

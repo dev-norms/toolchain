@@ -1,0 +1,8 @@
+{
+  "name": "@norms/compiler",
+  "version": "0.0.1",
+  "main": "./src",
+  "engines": {
+    "node": ">= 14.0.0"
+  }
+}

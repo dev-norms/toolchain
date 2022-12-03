@@ -1,10 +1,17 @@
 {
   "files.exclude": {
     "**/.*": true,
+    "**/*.d.ts": true,
+    "**/*.js": true,
+    "**/*.map": true,
+    "**/*.tsbuildinfo": true,
+    "**/tsconfig*.json": true,
     "**/yarn.lock": true
   },
   "search.exclude": {
     "**/.yarn": true,
     "**/.pnp.*": true
-  }
+  },
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }

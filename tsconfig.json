@@ -1,0 +1,8 @@
+{
+  "references": [
+    { "path": "packages/compiler" },
+    { "path": "packages/runtime" },
+    { "path": "packages/toolchain" }
+  ],
+  "files": []
+}

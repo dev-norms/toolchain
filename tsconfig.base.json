@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    // Type Checking
+    // https://www.typescriptlang.org/tsconfig#Type_Checking_6248
+    //
+    // We opt for the strictet possible configuration to begin with.
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+
+    // Modules
+    // https://www.typescriptlang.org/tsconfig#Modules_6244
+    "module": "CommonJS",
+
+    // Emit
+    // https://www.typescriptlang.org/tsconfig#Emit_6246
+    "declaration": true,
+    "declarationMap": true,
+    "importHelpers": true,
+    "sourceMap": true,
+
+    // Interop Constraints
+    // https://www.typescriptlang.org/tsconfig#Interop_Constraints_6252
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    // Language & Environment
+    // https://www.typescriptlang.org/tsconfig#Language_and_Environment_6254
+    "target": "ES2020", // We target Node v14+
+
+    // Projects
+    // https://www.typescriptlang.org/tsconfig#Projects_6255
+    "composite": true
+  }
+}

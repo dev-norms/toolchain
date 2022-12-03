@@ -2,3 +2,9 @@
 .yarn/cache
 .yarn/install-state.gz
 *.pnp.*
+
+# TypeScript
+*.d.ts
+*.js
+*.map
+*.tsbuildinfo
